@@ -1,8 +1,4 @@
 import {interpolate, Sequence, useCurrentFrame, useVideoConfig} from 'remotion';
-import {Logo} from './HelloWorld/Logo';
-import {Subtitle} from './HelloWorld/Subtitle';
-import {Title} from './HelloWorld/Title';
-
 export const HelloWorld: React.FC<{
 	titleText: string;
 	titleColor: string;
